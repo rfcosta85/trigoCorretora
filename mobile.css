@@ -5,6 +5,7 @@
     {
 
         font-size: 0.8em;
+
     }
 
     .logo
@@ -12,12 +13,14 @@
 
         margin-left: 10%;
         width: 50%;
+        
     }
 
     .nav 
     {
 
         margin-right: 15%;
+
     }
 
     section 
@@ -25,10 +28,10 @@
 
         display: grid;
         grid-template-columns: 1fr;
-        min-height: 100vh;
+        min-height: 100vh;        
 
     }
-
+    
     .trigo-title 
     {
 
@@ -39,6 +42,7 @@
     {
 
         background-color: white;
+
     }
 
     button 
@@ -55,6 +59,7 @@
     {
         
         margin-right: 20%;
+        
     }
 
     .second-section-title  
@@ -68,17 +73,19 @@
     {
 
         display: grid;
-        gap: 10%;
-        margin: auto;
-        margin-top: 10%;
+        gap: 10%;        
+        margin-top: -80%;
+        margin-left: 13%;
         
-    }
+        
+    }    
 
     .text-insurance 
     {
 
-        font-size: 1.15em;
-    }
+        font-size: 1.15em;        
+
+    }    
     
 
     footer 
@@ -92,5 +99,78 @@
 @media (min-width: 768px) and (max-width: 1100px)
 {
 
+
     
+
+    section 
+    {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        min-height: 100vh;        
+
+    }
+
+    .trigo-title 
+    {
+
+        font-size: 1.3em;
+        margin-bottom: 5%;
+        margin-top: 2%;
+    }
+
+    .seguros 
+    {
+
+        display: grid;
+        gap: 10%;        
+        margin-top: -28%;       
+        
+    }    
+    
+    .nav 
+    {
+
+        margin-right: 10%;
+
+    }
+
+    .logo
+    {
+
+        margin-left: 10%;
+        width: 30%;
+        
+    }
+
+    button 
+    {
+
+        font-size: 0.8em;
+        width: 50%;
+        height: 90%;
+        margin-bottom: 5.5%;
+        
+    }  
+
+    .second-section-title 
+    {
+
+        font-size: 1.5em;
+
+    }
+
+    .text-insurance 
+    {
+
+        font-size: 1.2em;
+    }
+
+    footer 
+    {
+        
+        font-size: 1.2em;
+
+    }    
+
 }
