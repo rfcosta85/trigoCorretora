@@ -1,0 +1,96 @@
+@media (max-width: 767px)
+{
+
+    span 
+    {
+
+        font-size: 0.8em;
+    }
+
+    .logo
+    {
+
+        margin-left: 10%;
+        width: 50%;
+    }
+
+    .nav 
+    {
+
+        margin-right: 15%;
+    }
+
+    section 
+    {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        min-height: 100vh;
+
+    }
+
+    .trigo-title 
+    {
+
+        font-size: 1.2em;
+    }
+
+    .two 
+    {
+
+        background-color: white;
+    }
+
+    button 
+    {
+
+        font-size: 0.8em;
+        width: 50%;
+        height: 90%;
+        margin-bottom: 1.5%;
+        
+    }  
+    
+    .second-section 
+    {
+        
+        margin-right: 20%;
+    }
+
+    .second-section-title  
+    {
+
+        font-size: 1.2em;
+
+    }
+
+    .seguros 
+    {
+
+        display: grid;
+        gap: 10%;
+        margin: auto;
+        margin-top: 10%;
+        
+    }
+
+    .text-insurance 
+    {
+
+        font-size: 1.15em;
+    }
+    
+
+    footer 
+    {
+
+        font-size: 1em;
+        
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1100px)
+{
+
+    
+}

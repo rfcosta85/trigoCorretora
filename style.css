@@ -1,0 +1,191 @@
+* {margin: 0; padding: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+header
+{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    min-height: 10vh;    
+    align-items: center;    
+    
+}
+
+.nav
+{
+
+    display: flex;
+    justify-self: center;
+
+}
+
+nav 
+{
+
+    display: flex;
+    align-items: center;
+    
+}
+
+span
+{
+
+    margin-left: 3%;
+    font-size: 1.2em;
+
+}
+
+.logo 
+{
+    
+    width: 22%;
+    
+}
+
+section 
+{
+
+    display: grid;
+    min-height: 50vh;
+    grid-template-columns: 50% 50%;
+    margin-top: 2%;
+    
+
+}
+
+.one 
+{
+
+    background-color: #d1c12f;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.trigo-title 
+{
+
+    width: 70%;
+    font-size: 1.8em;
+    margin: auto;
+    color: white;
+    font-family: 'New Tegomin', serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.418);
+    text-align: justify;
+
+}
+
+button 
+{
+
+    width: 30%;
+    height: 40%;
+    margin: auto;
+    font-weight: bolder;
+    font-size: 1.1em;
+    background-color: rgba(15, 15, 15, 0.959);
+    color: white;
+
+}
+
+button:hover 
+{
+    -webkit-transform: scale(1.02);
+    color: #d1c12f;
+    -webkit-transition: 0.3s;
+    cursor: pointer;
+
+}
+
+.family 
+{
+
+    width: 100%;
+
+}
+
+.two
+{
+
+    background-color: #F4EB9A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.second-section-title 
+{
+
+    text-align: center;
+    margin-top: 2%;
+    font-family: 'New Tegomin', serif;
+
+}
+
+.second-section 
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.seguros 
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    
+}
+
+.text-insurance-itens 
+{
+
+    margin-left: 5%;
+    
+
+}
+
+
+.text-insurance 
+{
+
+    font-size: 1.5em;
+    width: 120%;
+    border: solid black;
+    text-align: center;
+    font-family: 'New Tegomin', serif;    
+
+}
+
+.text-insurance:hover 
+{
+
+    -webkit-transform: scale(1.02);
+    background-color: #d1c12f;
+    -webkit-transition: 0.3s;
+    cursor: pointer;
+
+}
+
+footer 
+{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    min-height: 8vh;
+    background-color: #d1c12f;
+    margin-top: 2%;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.568);
+    font-size: 1.4em;
+    font-family: 'New Tegomin', serif;    
+
+}
